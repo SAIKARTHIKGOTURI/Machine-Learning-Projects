@@ -81,7 +81,7 @@ class Window(Frame):
             self.render3 = ImageTk.PhotoImage(load)
             self.image3 = self.canvas.create_image((w / 2, h / 2), image=self.render3)
             self.canvas.move(self.image3, 500, 0)
- 
+ ghp_7db382f50c4f657cc9a1ba18d16a71085adrt4561fae8tr78913yukb7k78b90346fe670948cb99f75
 root = tk.Tk()
 root.geometry("%dx%d" % (980, 600))
 root.title("B&W Image Colorization GUI")
